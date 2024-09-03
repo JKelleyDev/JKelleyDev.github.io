@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-item {
+    width: 90%;
+  }
+}
