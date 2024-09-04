@@ -1,25 +1,26 @@
-# Jordan Kelley | Portfolio
+## Portfolio-Website
+Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
 
-Welcome to my professional portfolio website! This site showcases my projects, work experience, and provides a downloadable resume.
+<a href="https://jigarsable.netlify.app/" target="_blank">**Visit Now** 🚀</a>
 
-## Features
 
-- **About Me**: Learn more about my background and interests.
-- **Projects**: Explore my GitHub projects with descriptions and links.
-- **Work Experience**: Detailed overview of my professional experience.
-- **Resume**: Download my latest resume in PDF format.
-- **Contact**: Get in touch with me via email.
+## 📌 Tech Stack
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=html)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=css)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/jigar-sable/Portfolio-Website/search?l=javascript)
+<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>
 
-## Technologies Used
+### Extras : 
+Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 
-- **HTML5 & CSS3**: For structuring and styling the website.
-- **JavaScript**: Adds interactivity and smooth scrolling.
-- **Responsive Design**: Ensures the site looks great on all devices.
-- **GitHub Pages**: Hosting the live website.
+## 📌 Sneak Peek of Main Page 🙈 :
+![mockup720](https://user-images.githubusercontent.com/64949957/124947013-1f682080-e02d-11eb-977e-df3bbd4fa838.png)
+![ss](https://user-images.githubusercontent.com/64949957/159113640-d92665a8-f614-42b3-8456-66b97fc2e651.png)
 
-## Installation
 
-1. **Clone the Repository**
+<h2>📬 Contact</h2>
 
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
+Feel free to reach me through the below handles if you'd like to contact me.
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jigarsable.dev)
