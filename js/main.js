@@ -22,7 +22,7 @@ function init() {
   scene.add(sphere);
   
   // Lighting
-  const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+  const ambientLight = new THREE.AmbientLight(0xffffff, 1);  // Increased light intensity for visibility
   scene.add(ambientLight);
   const pointLight = new THREE.PointLight(0xffffff, 1);
   pointLight.position.set(5, 5, 5);
