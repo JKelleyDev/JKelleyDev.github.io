@@ -73,4 +73,34 @@ nav button a {
 
 .social-links img {
   width: 40px;
-  margin: 
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+#projects, #experience, #skills, #contact {
+  padding: 50px 10%;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skills-list p {
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  #intro {
+    padding: 20px;
+  }
+}
