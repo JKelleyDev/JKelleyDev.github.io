@@ -38,11 +38,13 @@ function init() {
   animate();
 }
 
-// Smooth scroll function
-function scrollToSection(sectionId) {
-  const section = document.getElementById(sectionId);
-  section.scrollIntoView({ behavior: 'smooth' });
-}
+// Smooth scroll to sections
+document.querySelectorAll("nav button").forEach(button => {
+  button.addEventListener("click", (e) => {
+    const sectionId = e.target.getAttribute("data-section");
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  });
+});
 
 // Resize handler
 window.addEventListener('resize', () => {
