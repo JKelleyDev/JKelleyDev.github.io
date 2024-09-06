@@ -10,6 +10,7 @@ document.querySelectorAll("nav button").forEach(button => {
     }
   });
 });
+console.log("JavaScript is working!");
 
 // Initialize the Three.js scene
 initThreeJS();
