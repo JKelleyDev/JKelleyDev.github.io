@@ -1,4 +1,3 @@
-// Import Three.js
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.140.0/build/three.module.js';
 
 let scene, camera, renderer;
@@ -16,27 +15,34 @@ function init() {
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.getElementById('threejs-container').appendChild(renderer.domElement);
   
-  // Create a simple 3D object (Cube)
-  const geometry = new THREE.BoxGeometry();
-  const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-  const cube = new THREE.Mesh(geometry, material);
-  scene.add(cube);
+  // Create a rotating 3D object (Sphere)
+  const geometry = new THREE.SphereGeometry(1, 32, 32);
+  const material = new THREE.MeshStandardMaterial({ color: 0xff6347 });
+  const sphere = new THREE.Mesh(geometry, material);
+  scene.add(sphere);
+  
+  // Lighting
+  const ambientLight = new THREE.AmbientLight(0xffffff, 1);  // Increased light intensity for visibility
+  scene.add(ambientLight);
+  const pointLight = new THREE.PointLight(0xffffff, 1);
+  pointLight.position.set(5, 5, 5);
+  scene.add(pointLight);
   
   // Animation loop
   function animate() {
     requestAnimationFrame(animate);
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    sphere.rotation.x += 0.01;
+    sphere.rotation.y += 0.01;
     renderer.render(scene, camera);
   }
   animate();
 }
 
+// Responsive handling
 window.addEventListener('resize', () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
 });
 
-// Initialize the 3D scene
 init();
