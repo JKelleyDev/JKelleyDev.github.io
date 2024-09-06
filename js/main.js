@@ -42,9 +42,14 @@ function init() {
 document.querySelectorAll("nav button").forEach(button => {
   button.addEventListener("click", (e) => {
     const sectionId = e.target.getAttribute("data-section");
-    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   });
 });
+
+
 
 // Resize handler
 window.addEventListener('resize', () => {
