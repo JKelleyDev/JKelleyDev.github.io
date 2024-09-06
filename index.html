@@ -6,19 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jordan Kelley's Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Navigation Bar -->
   <header>
     <nav>
-      <ul>
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="/mnt/data/Academic_CV_Template-3.pdf" download>Download Resume</a></li>
-      </ul>
+      <button onclick="scrollToSection('intro')">Home</button>
+      <button onclick="scrollToSection('projects')">Projects</button>
+      <button onclick="scrollToSection('experience')">Experience</button>
+      <button onclick="scrollToSection('skills')">Skills</button>
+      <button onclick="scrollToSection('contact')">Contact</button>
+      <button><a href="/mnt/data/Academic_CV_Template-3.pdf" download>Download Resume</a></button>
     </nav>
   </header>
 
@@ -53,50 +52,26 @@
   </section>
 
   <!-- Experience Section -->
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="experience-item">
-    <h3>SDSU Research Foundation (June 2024 - August 2024)</h3>
-    <p>Developed sophisticated Python scripts for automated test case execution, secure file transfers, and statistical mapping of results, leveraging advanced command-line interfaces.</p>
-    <p>Conducted experiments with SLAM algorithms on NVIDIA Jetson, integrating computer vision algorithms with robotic systems.</p>
-  </div>
-  
-  <div class="experience-item">
-    <h3>Crew Training International (January 2023 - May 2023)</h3>
-    <p>Managed and optimized network infrastructure for 20 users, resolving hardware, software, and network issues for 30 systems.</p>
-    <p>Implemented data protection strategies and provided comprehensive training to users.</p>
-  </div>
-
-  <div class="experience-item">
-    <h3>Iron Bow Technologies (October 2022 - January 2023)</h3>
-    <p>Resolved an average of 60 support tickets daily, handled Tier 1 support calls, and performed daily monitoring of computer systems.</p>
-    <p>Achieved a 100% resolution rate for all tickets in the ServiceNow system.</p>
-  </div>
-
-  <div class="experience-item">
-    <h3>U.S. Navy (November 2018 - February 2023)</h3>
-    <p>Accumulated over 4,200 hours operating advanced electronic intelligence systems. Led project management of a multi-million dollar program for ship's specialized equipment.</p>
-    <p>Collaborated with NATO allies to coordinate operations, leading to the seizure of $168 million in illicit materials.</p>
-  </div>
-</section>
-
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>Overview of your professional experience and past.</p>
+  </section>
 
   <!-- Skills Section -->
- <section id="skills">
-  <h2>Skills & Tools</h2>
-  <div class="skills-list">
-    <p><strong>Programming Languages:</strong> Python, C++, C, Java</p>
-    <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, Linux, Windows</p>
-    <p><strong>Database Systems:</strong> SQL, ServiceNow</p>
-    <p><strong>Data Science & Machine Learning:</strong> SLAM algorithms, Statistical Analysis, Data Visualization</p>
-    <p><strong>Cloud Technologies:</strong> Azure</p>
-    <p><strong>DevOps & Version Control:</strong> Git, Command-line interfaces</p>
-    <p><strong>Specialized Areas:</strong> Computer Science, Electronic Warfare, Signals Intelligence</p>
-    <p><strong>Hardware:</strong> NVIDIA Jetson, Electronic intelligence systems</p>
-    <p><strong>Other Tools & Technologies:</strong> ORB-SLAM3, Network Administration, System Troubleshooting, Eclipse</p>
-  </div>
-</section>
-
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-list">
+      <p><strong>Programming Languages:</strong> Python, C++, C, Java</p>
+      <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, Linux, Windows</p>
+      <p><strong>Database Systems:</strong> SQL, ServiceNow</p>
+      <p><strong>Data Science & Machine Learning:</strong> SLAM algorithms, Statistical Analysis, Data Visualization</p>
+      <p><strong>Cloud Technologies:</strong> Azure</p>
+      <p><strong>DevOps & Version Control:</strong> Git, Command-line interfaces</p>
+      <p><strong>Specialized Areas:</strong> Computer Science, Electronic Warfare, Signals Intelligence</p>
+      <p><strong>Hardware:</strong> NVIDIA Jetson, Electronic intelligence systems</p>
+      <p><strong>Other Tools & Technologies:</strong> ORB-SLAM3, Network Administration, System Troubleshooting, Eclipse</p>
+    </div>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact">
