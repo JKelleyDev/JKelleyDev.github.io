@@ -7,6 +7,7 @@ body {
   color: #fff; /* White text */
 }
 
+/* Header Style */
 header {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px 0;
@@ -41,16 +42,17 @@ nav button a {
   text-decoration: none;
 }
 
+/* 3D Container */
 #threejs-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1; /* Keep it behind the content */
+  z-index: -1;
 }
 
-
+/* Intro Section */
 #intro {
   display: flex;
   flex-direction: column;
@@ -81,6 +83,7 @@ nav button a {
   transform: scale(1.1);
 }
 
+/* Sections */
 #projects, #experience, #skills, #contact {
   padding: 50px 10%;
   background-color: #1a1a1a;
@@ -95,11 +98,20 @@ h2 {
   letter-spacing: 1px;
 }
 
-.skills-list p {
-  font-size: 1.2em;
-}
-
+/* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
+  /* Stack the header buttons vertically on mobile */
+  header {
+    flex-direction: column; /* Stack buttons vertically */
+    padding: 20px 0;
+  }
+  
+  nav button {
+    margin: 5px 0; /* Add space between buttons */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    width: 90%; /* Make buttons full width on mobile */
+  }
+
   #intro {
     padding: 20px;
   }
