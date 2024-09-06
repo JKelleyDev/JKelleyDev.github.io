@@ -22,7 +22,7 @@ function init() {
   scene.add(sphere);
   
   // Lighting
-  const ambientLight = new THREE.AmbientLight(0xffffff, 1);  // Increased light intensity for visibility
+  const ambientLight = new THREE.AmbientLight(0xffffff, 1);
   scene.add(ambientLight);
   const pointLight = new THREE.PointLight(0xffffff, 1);
   pointLight.position.set(5, 5, 5);
@@ -38,11 +38,18 @@ function init() {
   animate();
 }
 
-// Responsive handling
+// Smooth scroll function
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+// Resize handler
 window.addEventListener('resize', () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
 });
 
+// Initialize the 3D scene
 init();
