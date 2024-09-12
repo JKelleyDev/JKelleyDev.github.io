@@ -91,16 +91,10 @@ h2 {
 
 /* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
-  /* Stack the header buttons vertically on mobile */
+  /* Hide the header on mobile devices */
   header {
-    flex-direction: row; /* Stack buttons vertically */
-    padding: 10px 0;
+    display: none;
   }
-  
-  nav button <none>{
-    display: none; 
-  }
-
   #intro {
     padding: 20px;
   }
