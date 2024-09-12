@@ -52,7 +52,7 @@ nav button a {
   height: 100vh;
   text-align: center;
   background: linear-gradient(to bottom right, red, yellow);
-  color: #f5f5f3;
+  color: red;
   padding: 40px 10px;
 }
 
