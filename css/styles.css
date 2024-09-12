@@ -102,8 +102,8 @@ h2 {
 @media (max-width: 768px) {
   /* Stack the header buttons vertically on mobile */
   header {
-    flex-direction: column; /* Stack buttons vertically */
-    padding: 20px 0;
+    flex-direction: row; /* Stack buttons vertically */
+    padding: 10px 0;
   }
   
   nav button {
