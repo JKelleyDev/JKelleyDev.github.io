@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000; /* Black background */
+  background-color: linear-gradient(to bottom right, red, yellow);
   color: #fff; /* White text */
 }
 
@@ -52,7 +52,7 @@ nav button a {
   height: 100vh;
   text-align: center;
   background: linear-gradient(to bottom right, red, yellow);
-  color: red;
+  color: none;
   padding: 40px 10px;
 }
 
