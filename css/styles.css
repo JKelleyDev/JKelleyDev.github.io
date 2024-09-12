@@ -97,10 +97,8 @@ h2 {
     padding: 10px 0;
   }
   
-  nav button {
-    margin: 5px 0; /* Add space between buttons */
-    padding: 10px 15px; /* Adjust padding for smaller screens */
-    width: 90%; /* Make buttons full width on mobile */
+  nav button <none>{
+    display: none; 
   }
 
   #intro {
